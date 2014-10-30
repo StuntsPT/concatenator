@@ -1,0 +1,13 @@
+This function is used to "join" 2-5 Nexus formated matrices in a single "interleave" Nexus file.
+The inputs must be Nexus files and can be on either "leave" or "interleave" format. A combination of both formats is also possible.
+All taxa names must be the same and in the same order in all the input files.
+Concatenated matrices can be used as inputs in order to add more then 5 matrices, however, concatenated matrices used as inputs will wield a less specific result (in the partitions data).
+Do not forget to select a "Missing" and a "Gap" parameter, you will get a reminder (error) if you don't.
+It is also possible to add a taxa block to the concatenated matrix, should you require it.
+If you want to run a ILD Partition test on PAUP, there is an option that will set the preparation commands for you. The filename will be changed to have "ILD" in the end.
+Do not forget to set the datatype for all the input matrices!
+
+
+Should you require aditional support feel free to e-mail the author:
+Francisco Pina Martins
+f.pinamartins@gmail.com

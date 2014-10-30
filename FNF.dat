@@ -1,0 +1,14 @@
+FASTA to Nexus to FASTA Converter help:
+
+This function is rather simple:
+Simply select the input and output files from the File menu. The program will automatically recognize the file format and the perform the adequate conversion.
+Do not forget to select the "Missing" and "Gap" parameters and if you want to include a Taxa Block when converting from FASTA to Nexus.
+The "interleave" Nexus output will divide a sequence in 5 blocks of 20 bases each for line.
+When converting from Nexus to FASTA, the input file can be both "leave" or "interleave".
+It is recomended that the input files are conveniently aligned (eg. all sequences have equal length). Altough the conversion #MIGHT# work on unaligned files, it has not been troughly tested and may produce unexpected results.
+Also do not forget to set the data type of the file you are converting (DNA, RNA, Nucleotide or Protein data).
+
+
+Should you require aditional support feel free to e-mail the author:
+Francisco Pina Martins
+f.pinamartins@gmail.com

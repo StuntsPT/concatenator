@@ -1,0 +1,53 @@
+Version 1.1.0 (11/10/2007)
+The input files for concatenation can now be in any order - Concatenator will sort them. and in case there are non matchin taxa, the user will be asked that to do. Thank you to Bettina Harr!
+
+Version 1.0.1 (26/07/2007)
+Corrected a bug with filehandles and string flushes (could generate some errors);
+Added partitioning command for PAUP;
+First "out of Beta" version, but still on the lookout for bugs.
+
+Version 0.9.5 Beta (24/05/2007)
+Added Buttons to the "Front End" - The now returns to this main window upon finishing rather then exiting;
+Added a browse button to ever file entry box;
+Added an automatic file extension adder;
+You can now type the file path in the entry box rather then having to browse for a file.
+
+Version 0.9.0 Beta (8/05/2007)
+Added the options to include or not a Taxa Block on Nexus files and added a costumizable datatype option.
+1st Public Beta version!
+
+Version 0.8.0 Alpha (3/05/2007)
+Correcting a few bugs with defensive programing beeing too defensive.
+
+Version 0.7.0 Alpha (2/05/2007)
+New function added - "Matrix concatenator". Grabs 2-5 Nexus matrices and concatenetes them, options for PAUP and MrBayes ready formats!
+
+Version 0.4.0 Alpha (05/04/2007)
+New organization and a GUI change.
+
+Version 0.3.1 Alpha (31/03/2007)
+Program now converts from FASTA to both types of NEXUS files (PAUP and Network).
+Added some costumization for the NEXUS headers.
+Corrected a bug involving the conversion to FASTA files where an extra ">" was appearing at the end.
+New functions to be implemented soon!
+
+Version 0.3.0 Alpha (30/03/2007)
+Added a nice looking GUI to the Tool. New options to be implemented soon on this interface!
+
+Version 0.2.2 Alpha (14/11/2006)
+Corrected another bug with taxa names; it must be OK now!
+Altough the nexus file doesn't look so neat, it will work better.
+
+Version 0.2.1 Alpha (29/10/2006)
+Added file type detection to the program;
+Improved part of the code.
+
+Version 0.2.0 Alpha (28/10/2006)
+Corrected another bug on the sequence names on the Nexus output;
+Converter now also converts Nexus files to fasta files!
+
+Version 0.1.0 Alpha (27/10/2006)
+Corrected a bug with large sequence names in FASTA files.
+
+Version 0.1 Alpha (25/10/2006) 
+First working Version!
