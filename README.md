@@ -20,3 +20,10 @@ Concatenator will take up to 5 NEXUS files as input and will concatenate them. T
 
 The NEXUS format specification limits taxa names to 8 character, however, the FASTA format does not. *Concatenator* will trim any taxa names into the first 8 characters when performing the conversion. This is a frequent source of erros during the concatenation step, since some taxa may end up with the same name.
 
+#How to cite:
+
+If you find *Concatenator* usefull, please cite the following paper:
+
+Pina-Martins F, Paulo OS (2008). Concatenator: Sequence Data Matrices Handling Made Easy. Molecular Ecology Resources 8, 1254-1255 
+
+Your citation is much appreciated!
