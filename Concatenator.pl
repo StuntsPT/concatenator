@@ -26,7 +26,7 @@ my $mw = new MainWindow(-title=>"Concatenator V 1.1.0");
 $lab = $mw -> Label(-text=> " Welcome to CoBiG^2 Concatenator!\n Please choose a function from the menu. ",
                        -font=> "Arial 10 bold");
 $pub1 = $mw ->Label(-text=> "Get the latest version at:", -font=> "Arial 8");
-$pub2 = $mw ->Label(-text=> "http://cobig2.fc.ul.pt", -font=> "Arial 8 underline");
+$pub2 = $mw ->Label(-text=> "http://cobig2.com", -font=> "Arial 8 underline");
 
 #Buttons
 $convBUT = $mw -> Button(-text=> "Converter",
