@@ -2,7 +2,8 @@
 
 This was my first "real" program. It is still quite useful in phylogeographic and phylogenetic studies, however, since this program was first released, several others have started implementing the functions present in *Concatenator*.
 
-It is written in perl and released under the GPL license.
+
+Concatenator is written in perl and released under the GPL license.
 
 # Usage
 
@@ -10,7 +11,7 @@ It is written in perl and released under the GPL license.
 
 ## Format conversion
 
-Given a FASTA input, *Concatenator* will convert it into the NEXUS format. The user can choose the *type* of NEUXS output - *leave* or *interleave*.
+Given a FASTA input, *Concatenator* will convert it into the NEXUS format. The user can choose the *type* of NEUXS output - *leave* or *interleave*; for this step, the user is requested further information, such as the data type, the "missing" data character or the "gap" character.
 
 ## Concatenation
 
@@ -18,7 +19,7 @@ Given a FASTA input, *Concatenator* will convert it into the NEXUS format. The u
 
 # Limitations
 
-The NEXUS format specification limits taxa names to 8 character, however, the FASTA format does not. *Concatenator* will trim any taxa names into the first 8 characters when performing the conversion. This is a frequent source of errors during the concatenation step, since some taxa may end up with the same name.
+The NEXUS format specification limits taxa names to 8 character, however, the FASTA format does not. *Concatenator* will trim any taxa names into the first 8 characters when performing the conversion. This is a frequent source of errors during the concatenation step, since some taxa may end up with the same name due to the trimming.
 
 # How to cite:
 
