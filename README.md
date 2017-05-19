@@ -25,6 +25,6 @@ The NEXUS format specification limits taxa names to 8 character, however, the FA
 
 If you find *Concatenator* usefull, please cite the following paper:
 
-Pina-Martins F, Paulo OS (2008). Concatenator: Sequence Data Matrices Handling Made Easy. Molecular Ecology Resources 8, 1254-1255
+[Pina-Martins F, Paulo OS (2008). Concatenator: Sequence Data Matrices Handling Made Easy. Molecular Ecology Resources 8, 1254-1255](https://www.ncbi.nlm.nih.gov/pubmed/21586013)
 
 Your citation is much appreciated!
