@@ -290,8 +290,9 @@ sub Run {
                           -icon=>'error', -title=>"Read error!", -font=>"Arial 10") and $stop = 1;
 
     while ($reader = <FILE>) {   #Identifica ficheiros Nexus
-        if ($reader =~ /matrix/i) {
+        if ($reader =~ /^ *matrix/i) {
             $identity = "Nexus";
+	    last;
         }
     }
 
@@ -504,7 +505,7 @@ sub nexus_to_fasta {
             $taxa[$b] = substr ($get, 0, 9);
             $b++;
         }
-        if ($get =~ /^.*matrix/i) {
+        if ($get =~ /^ *matrix/i) {
             $a = 1;
         }
     }
